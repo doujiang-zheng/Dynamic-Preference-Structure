@@ -1,12 +1,12 @@
 - [Dynamic-Preference-Structure (ICBK 2021)](#dynamic-preference-structure-icbk-2021)
-  - [## Introduction](#-introduction)
-  - [## Experiments](#-experiments)
+  - [Introduction](#introduction)
+  - [Experiments](#experiments)
     - [Requirements](#requirements)
     - [Dataset Statistics](#dataset-statistics)
     - [Data Preprocess](#data-preprocess)
     - [Temporal Link Prediction](#temporal-link-prediction)
     - [Temporal Node Classification](#temporal-node-classification)
-  - [## Cite us](#-cite-us)
+  - [Cite us](#cite-us)
 
 # Dynamic-Preference-Structure (ICBK 2021)
 
