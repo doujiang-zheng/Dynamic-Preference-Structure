@@ -10,12 +10,12 @@
 
 # Dynamic-Preference-Structure (ICBK 2021)
 
-Authors: Tongya Zheng, Zunlei Feng, Yu Wang, Chengchao Shen, Mingli Song*, Xingen Wang, Xinyu Wang, Chun Chen, Hao Xu
+> Authors: Tongya Zheng, Zunlei Feng, Yu Wang, Chengchao Shen, Mingli Song*, Xingen Wang, Xinyu Wang, Chun Chen, Hao Xu
 
 Code for [Learning Dynamic Preference Structure Embedding From Temporal Networks](https://arxiv.org/abs/2111.11886), which is highly inspired by [Inductive Representation Learning on Temporal Graphs](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs).
 
 ## Introduction
----
+
 The dynamics of temporal networks lie in the continuous interactions between nodes, which exhibit the dynamic node preferences with time elapsing.
 The challenges of mining temporal networks are thus two-fold: the dynamic structure of networks and the dynamic node preferences.
 
@@ -25,9 +25,6 @@ In the first stage, two parameterized samplers are designed to learn the prefere
 In the second stage, an additional attention layer is designed to fuse two sampled temporal subgraphs of a node, generating temporal node embeddings for downstream tasks.
 
 ![DPS architecture](architecture.png)
-
-## Experiments
----
 
 ### Requirements
 - python==3.7
@@ -45,7 +42,7 @@ dgl==0.6.1
 
 ### Dataset Statistics
 
-You can download datasets from [Google drive](https://drive.google.com/drive/folders/19ItQ4G64rYa6so1IQ6NxEq_Ok7K9Sqsp?usp=sharing) and place the `format_data` under the `data` directory. We will split them into training, validation, and testing datasets in the next section.
+We have preprocessed most temporal graphs in the [data/format_data](https://github.com/doujiang-zheng/TIP-GNN/tree/main/data/format_data) directory, and placed the JODIE datasets at [Google drive](https://drive.google.com/drive/folders/19ItQ4G64rYa6so1IQ6NxEq_Ok7K9Sqsp?usp=sharing), which can be downloaded and placed at the `data/format_data`.
 
 ![Data Statistics](data_stats.png)
 
@@ -185,7 +182,7 @@ optional arguments:
 ```
 
 ## Cite us
----
+
 ```
 @inproceedings{dps_icbk21,
     title={Learning Dynamic Preference Structure Embedding From Temporal Networks},
